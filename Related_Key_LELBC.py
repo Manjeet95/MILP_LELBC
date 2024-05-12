@@ -8,7 +8,7 @@ Arguments:
 6. No. of trails to find 
 7. possilbe/impossible differential characteritics
 8. Solver to be used (GUROBI/CPLEX)
-(if you are changing the code for anothe cipher then please change no. of ineq. in line 247 and 382)
+(if you are changing the code for another cipher then please change no. of ineq.)
 
 python Related_key_LELBC.py 64 11 1 2 no_fix 1 GUROBI 
 python Related_key_LELBC.py 64 5 1 2 fix 1 CPLEX
