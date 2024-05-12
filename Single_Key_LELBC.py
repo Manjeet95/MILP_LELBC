@@ -10,8 +10,8 @@ Arguments:
 8. Solver to be used (GUROBI/CPLEX)
 (if you are changing the code for anothe cipher then please change no. of ineq. in line 247 and 382)
 
-python LELBC.py 64 11 1 2 no_fix 1 GUROBI 
-python LELBC.py 64 5 1 2 fix 1 CPLEX
+python Single_Key_LELBC.py 64 11 1 2 no_fix 1 GUROBI 
+python Single_Key_LELBC.py 64 5 1 2 fix 1 CPLEX
 '''
 
 import string
